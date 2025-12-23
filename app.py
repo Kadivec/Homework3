@@ -86,7 +86,3 @@ elif page == "Reviews":
             ).properties(height=400).interactive()
 
             st.altair_chart(chart, use_container_width=True)
-
-
-
-
