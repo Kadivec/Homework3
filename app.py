@@ -13,7 +13,7 @@ with col_name:
     st.title("Andraž Kadivec | Web Scraping Homework 3")
 with col_logo:
     # This URL uses the exact filename found in your GitHub repository
-    logo_url = "https://raw.githubusercontent.com/Kadivec/Homework3/refs/heads/main/logo.png"
+    logo_url = "https://github.com/Kadivec/Homework3/blob/main/logo.png"
     st.image(logo_url, width=250)
     
 st.divider()
@@ -86,4 +86,5 @@ elif page == "Reviews":
             ).properties(height=400).interactive()
 
             st.altair_chart(chart, use_container_width=True)
+
 
