@@ -6,41 +6,50 @@ import altair as alt
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-# ... (keep your existing header and data loading code) ...
+# Page configuration
+st.set_page_config(page_title="Dashboard", layout="wide")
+
+# --- HEADER ---
+col1, col2 = st.columns([3, 1])
+with col1:
+    st.title("Andraž Kadivec | Web Scraping Dashboard")
+with col2:
+    # Uses your logo from GitHub
+    logo_url = "https://raw.githubusercontent.com/Kadivec/Homework3/main/logo.png"
+    st.image(logo_url, width=200)
+
+st.divider()
+
+# --- DATA LOADING ---
+def load_data(file):
+    if os.path.exists(file):
+        with open(file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    return None
+
+# Sidebar
+page = st.sidebar.radio("Navigate", ["Products", "Testimonials", "Reviews"])
+
+# --- PAGES ---
+if page == "Products":
+    st.header("📦 Products")
+    data = load_data('Products.json')
+    if data: st.dataframe(pd.DataFrame(data), use_container_width=True)
+
+elif page == "Testimonials":
+    st.header("💬 Testimonials")
+    data = load_data('Testimonials.json')
+    if data:
+        for t in data:
+            st.info(f"**{t['user']}**: {t['testimonial']}")
 
 elif page == "Reviews":
-    st.header("⭐ Customer Reviews & Sentiment Analysis")
-    reviews = load_json('Reviews.json')
-    
-    if reviews:
-        df_r = pd.DataFrame(reviews)
-        df_r['date'] = pd.to_datetime(df_r['date'])
+    st.header("⭐ Reviews & Word Cloud")
+    data = load_data('Reviews.json')
+    if data:
+        df = pd.DataFrame(data)
+        df['date'] = pd.to_datetime(df['date'])
         
+        # Month Filter
         months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-        selected_month = st.select_slider("Select Month in 2023", options=months, value="May")
-        
-        month_idx = months.index(selected_month) + 1
-        filtered_df = df_r[df_r['date'].dt.month == month_idx].copy()
-
-        if not filtered_df.empty:
-            # --- WORD CLOUD GENERATION ---
-            st.divider()
-            st.subheader(f"Word Cloud for {selected_month}")
-            
-            # Combine all reviews into one big string
-            text = " ".join(review for review in filtered_df.review)
-            
-            # Create the word cloud object
-            wordcloud = WordCloud(background_color="white", width=800, height=400, colormap='viridis').generate(text)
-            
-            # Display using matplotlib
-            fig, ax = plt.subplots(figsize=(10, 5))
-            ax.imshow(wordcloud, interpolation='bilinear')
-            ax.axis("off")
-            st.pyplot(fig)
-            
-            st.divider()
-            # --- DATA TABLE AND BAR CHART ---
-            st.dataframe(filtered_df[['date', 'review', 'Sentiment', 'Score']], use_container_width=True, hide_index=True)
-            
-            # (Keep your existing Bar Chart code below here)
+        sel_month = st.select_slider("
