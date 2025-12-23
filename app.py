@@ -87,3 +87,4 @@ elif page == "Reviews":
 
             st.altair_chart(chart, use_container_width=True)
 
+
