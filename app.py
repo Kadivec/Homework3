@@ -9,8 +9,7 @@ st.set_page_config(page_title="Web Scraping Dashboard", layout="wide")
 
 # --- HEADER SECTION ---
 col_name, col_logo, col_spacer = st.columns([2, 1, 1])
-with col_name:
-    st.title("Andraž Kadivec | Web Scraping Homework 3")
+
 with col_logo:
     # Official EF Logo
     logo_url = "https://github.com/Kadivec/Homework3/blob/main/logo.png"
@@ -86,4 +85,5 @@ elif page == "Reviews":
             ).properties(height=400).interactive()
 
             st.altair_chart(chart, use_container_width=True)
+
 
