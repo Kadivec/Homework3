@@ -35,13 +35,12 @@ elif page == "Reviews":
             
             # Display using matplotlib
             fig, ax = plt.subplots(figsize=(10, 5))
+            ax.imshow(wordcloud, interpolation='bilinear')
             ax.axis("off")
             st.pyplot(fig)
-            ax.imshow(wordcloud, interpolation='bilinear')
             
             st.divider()
             # --- DATA TABLE AND BAR CHART ---
             st.dataframe(filtered_df[['date', 'review', 'Sentiment', 'Score']], use_container_width=True, hide_index=True)
             
             # (Keep your existing Bar Chart code below here)
-
