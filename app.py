@@ -46,7 +46,6 @@ elif page == "Testimonials":
         for t in testimonials:
             with st.container(border=True):
                 st.markdown(f"**User:** {t['user']}")
-                st.write(f"_{t['testimonial']}_")
 
 elif page == "Reviews":
     st.header("⭐ Customer Reviews & Sentiment Analysis")
@@ -86,3 +85,4 @@ elif page == "Reviews":
             ).properties(height=400).interactive()
 
             st.altair_chart(chart, use_container_width=True)
+
