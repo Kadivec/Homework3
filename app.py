@@ -13,7 +13,7 @@ with col_name:
     st.title("Andraž Kadivec | Web Scraping Homework 3")
 with col_logo:
     # Official EF Logo
-    logo_url = "https://github.com/Kadivec/Homework3/blob/main/logo.png"
+    logo_url = "https://www.ef.uni-lj.si/izjava_o_dostopnosti/images/logo_ef_p_2_barvni_ang.png"
     st.image(logo_url, width=250)
 
 st.divider()
