@@ -3,8 +3,6 @@ import pandas as pd
 import json
 import os
 import altair as alt
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
 
 # 1. Setup
 st.set_page_config(page_title="Dashboard", layout="wide")
@@ -73,3 +71,4 @@ elif page == "Reviews":
             # Sentiment Table
             st.subheader("Sentiment Analysis Results")
             # This table requires '
+
