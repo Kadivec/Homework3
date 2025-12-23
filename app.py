@@ -6,35 +6,35 @@ import altair as alt
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-# Page configuration
+# 1. Setup
 st.set_page_config(page_title="Dashboard", layout="wide")
 
-# --- HEADER ---
+# 2. Header
 col1, col2 = st.columns([3, 1])
 with col1:
     st.title("Andraž Kadivec | Web Scraping Dashboard")
 with col2:
-    # Uses your logo from GitHub
     logo_url = "https://raw.githubusercontent.com/Kadivec/Homework3/main/logo.png"
     st.image(logo_url, width=200)
 
 st.divider()
 
-# --- DATA LOADING ---
+# 3. Data Loader
 def load_data(file):
     if os.path.exists(file):
         with open(file, 'r', encoding='utf-8') as f:
             return json.load(f)
     return None
 
-# Sidebar
+# 4. Sidebar Logic
 page = st.sidebar.radio("Navigate", ["Products", "Testimonials", "Reviews"])
 
-# --- PAGES ---
+# 5. Page Content (This structure fixes the SyntaxError)
 if page == "Products":
     st.header("📦 Products")
     data = load_data('Products.json')
-    if data: st.dataframe(pd.DataFrame(data), use_container_width=True)
+    if data:
+        st.dataframe(pd.DataFrame(data), use_container_width=True)
 
 elif page == "Testimonials":
     st.header("💬 Testimonials")
@@ -50,6 +50,24 @@ elif page == "Reviews":
         df = pd.DataFrame(data)
         df['date'] = pd.to_datetime(df['date'])
         
-        # Month Filter
         months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-        sel_month = st.select_slider("
+        sel_month = st.select_slider("Month", options=months, value="May")
+        month_num = months.index(sel_month) + 1
+        
+        filtered = df[df['date'].dt.month == month_num].copy()
+        
+        if not filtered.empty:
+            # Word Cloud
+            text = " ".join(review for review in filtered.review)
+            wc = WordCloud(background_color="white", width=800, height=400).generate(text)
+            fig, ax = plt.subplots()
+            ax.imshow(wc, interpolation='bilinear')
+            ax.axis("off")
+            st.pyplot(fig)
+            
+            st.divider()
+            
+            # Table (Requires 'Sentiment' and 'Score' columns in Reviews.json)
+            st.dataframe(filtered[['date', 'review', 'Sentiment', 'Score']], use_container_width=True)
+        else:
+            st.write("No reviews for this month.")
