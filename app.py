@@ -12,8 +12,8 @@ col_name, col_logo, col_spacer = st.columns([2, 1, 1])
 with col_name:
     st.title("Andraž Kadivec | Web Scraping Homework 3")
 with col_logo:
-    # Official EF Logo
-    logo_url = "https://raw.githubusercontent.com/Kadivec/Homework3/refs/heads/main/logo.png"
+    # This URL points to the renamed 'logo.png' in your GitHub repository
+    logo_url = "https://raw.githubusercontent.com/Kadivec/Homework3/main/logo.png"
     st.image(logo_url, width=250)
 
 st.divider()
@@ -86,6 +86,7 @@ elif page == "Reviews":
             ).properties(height=400).interactive()
 
             st.altair_chart(chart, use_container_width=True)
+
 
 
 
