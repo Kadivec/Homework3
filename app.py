@@ -13,7 +13,7 @@ with col_name:
     st.title("Andraž Kadivec | Web Scraping Homework 3")
 with col_logo:
     # Official EF Logo
-    logo_url = "https://raw.githubusercontent.com/Kadivec/Homework3/refs/heads/main/logo.png"
+    logo_url = "https://github.com/Kadivec/Homework3/blob/main/logo.png"
     st.image(logo_url, width=250)
 
 st.divider()
@@ -46,6 +46,7 @@ elif page == "Testimonials":
         for t in testimonials:
             with st.container(border=True):
                 st.markdown(f"**User:** {t['user']}")
+                st.write(f"_{t['testimonial']}_")
 
 elif page == "Reviews":
     st.header("⭐ Customer Reviews & Sentiment Analysis")
@@ -85,7 +86,3 @@ elif page == "Reviews":
             ).properties(height=400).interactive()
 
             st.altair_chart(chart, use_container_width=True)
-
-
-
-
