@@ -1,0 +1,482 @@
+[
+    {
+        "date":"2023-05-18T00:00:00",
+        "review":"Unique flavor and great energy boost. It's the perfect gamer's drink!",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998904467
+    },
+    {
+        "date":"2023-05-17T00:00:00",
+        "review":"Good flavor and keeps me energized. The bottle design is really fun.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998896122
+    },
+    {
+        "date":"2023-05-16T00:00:00",
+        "review":"Excellent energy drink for gamers. The tropical flavor is refreshing.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998767376
+    },
+    {
+        "date":"2023-05-15T00:00:00",
+        "review":"It\u2019s fun, tastes good, and the energy boost is helpful during intense gaming sessions.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998649359
+    },
+    {
+        "date":"2023-05-15T00:00:00",
+        "review":"The best sneakers I've bought in a long time. Stylish, comfortable and the leather quality is top-notch.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998451471
+    },
+    {
+        "date":"2023-05-12T00:00:00",
+        "review":"The cherry cola flavor is a win. Keeps me energized and focused.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998745918
+    },
+    {
+        "date":"2023-05-10T00:00:00",
+        "review":"These shoes are a hit with my twins. They love the lights and they seem to be quite durable.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998632669
+    },
+    {
+        "date":"2023-05-01T00:00:00",
+        "review":"Excellent boots for outdoor adventures. They offer great support and are very comfortable.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998654127
+    },
+    {
+        "date":"2023-05-01T00:00:00",
+        "review":"Nice design and good quality, but a bit too tight for me. Otherwise, it's a pretty cool beanie.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9984560013
+    },
+    {
+        "date":"2023-04-25T00:00:00",
+        "review":"Really enjoyed the citrus flavor and the energy boost it gives.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998840094
+    },
+    {
+        "date":"2023-04-25T00:00:00",
+        "review":"Great concept, but the sizing is a bit off. Order a size larger.",
+        "Sentiment":"NEGATIVE",
+        "Score":0.9941918254
+    },
+    {
+        "date":"2023-04-18T00:00:00",
+        "review":"Delicious chocolates, and the box is pretty substantial. It'd make a nice gift.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998902082
+    },
+    {
+        "date":"2023-04-12T00:00:00",
+        "review":"The boots are durable, but the laces could be better quality.",
+        "Sentiment":"POSITIVE",
+        "Score":0.814209044
+    },
+    {
+        "date":"2023-04-11T00:00:00",
+        "review":"This potion is a game changer. Love the energy boost and the flavor.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998190999
+    },
+    {
+        "date":"2023-04-10T00:00:00",
+        "review":"Light, comfortable, and nice design. I'm buying another pair.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998525381
+    },
+    {
+        "date":"2023-04-10T00:00:00",
+        "review":"Highly recommend! These shoes are great for evening walks. Kids love them!",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998764992
+    },
+    {
+        "date":"2023-04-09T00:00:00",
+        "review":"It's like a health potion for gamers! The energy boost is spot on.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9986320138
+    },
+    {
+        "date":"2023-04-07T00:00:00",
+        "review":"Really helps me focus during intense gaming marathons. The teal color is a nice touch.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998599291
+    },
+    {
+        "date":"2023-04-07T00:00:00",
+        "review":"The shoes are nice but they didn't fit me well. I had to exchange for a larger size.",
+        "Sentiment":"NEGATIVE",
+        "Score":0.9981268048
+    },
+    {
+        "date":"2023-04-05T00:00:00",
+        "review":"Great taste, and the energy kick is awesome. Feels just like a strength potion.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998582602
+    },
+    {
+        "date":"2023-04-05T00:00:00",
+        "review":"Exceptional beanie! I wear it every time I go out in cold weather. The material is comfortable and durable. Highly recommend it.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998824596
+    },
+    {
+        "date":"2023-04-01T00:00:00",
+        "review":"Great taste and doesn't give me a crash afterwards.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9944359064
+    },
+    {
+        "date":"2023-03-25T00:00:00",
+        "review":"Good quality and fit, but the color is a bit off from the picture. Still, they're pretty.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9950153232
+    },
+    {
+        "date":"2023-03-25T00:00:00",
+        "review":"The beanie is cute, but the cat ears were a bit floppy. Overall, I like it and wear it regularly.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9761042595
+    },
+    {
+        "date":"2023-03-24T00:00:00",
+        "review":"Good quality and comfortable, but a bit pricey.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9997726083
+    },
+    {
+        "date":"2023-03-20T00:00:00",
+        "review":"The orange flavor wasn't my favorite, but the cherry ones are great.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998627901
+    },
+    {
+        "date":"2023-03-20T00:00:00",
+        "review":"Not only does it look cool, but it tastes great and gives a good energy boost!",
+        "Sentiment":"POSITIVE",
+        "Score":0.999884963
+    },
+    {
+        "date":"2023-03-15T00:00:00",
+        "review":"Just what I need for long gaming sessions. Great flavor and energy boost.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998794794
+    },
+    {
+        "date":"2023-03-14T00:00:00",
+        "review":"Definitely helped me stay focused during my long gaming nights. Plus, the bottle design is pretty cool.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998269677
+    },
+    {
+        "date":"2023-03-14T00:00:00",
+        "review":"I love how it gives me the energy I need for my gaming sessions. Plus, no sugar crash.",
+        "Sentiment":"POSITIVE",
+        "Score":0.999781549
+    },
+    {
+        "date":"2023-03-10T00:00:00",
+        "review":"Finally, an energy drink for gamers! It's just like a mana potion.",
+        "Sentiment":"NEGATIVE",
+        "Score":0.8313136101
+    },
+    {
+        "date":"2023-03-10T00:00:00",
+        "review":"I'm not really a cat person, but I like the quality and comfort of this beanie. My friend recommended it, and I'm glad I bought it.",
+        "Sentiment":"POSITIVE",
+        "Score":0.999851346
+    },
+    {
+        "date":"2023-03-05T00:00:00",
+        "review":"They're a good pair of running shoes for the price. They're not the best I've had, but they do the job.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9994767308
+    },
+    {
+        "date":"2023-03-05T00:00:00",
+        "review":"The sneakers are fun and eye-catching, but my pair arrived with one shoe not lighting up.",
+        "Sentiment":"NEGATIVE",
+        "Score":0.9975760579
+    },
+    {
+        "date":"2023-03-01T00:00:00",
+        "review":"Very comfortable and the leather feels premium. Would recommend to anyone looking for classic sneakers.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9988638163
+    },
+    {
+        "date":"2023-02-25T00:00:00",
+        "review":"Great sneakers, but the white ones get dirty easily. Otherwise, they're perfect.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9987898469
+    },
+    {
+        "date":"2023-02-22T00:00:00",
+        "review":"Love these boots. They're rugged and comfortable, perfect for outdoor activities.",
+        "Sentiment":"POSITIVE",
+        "Score":0.99987185
+    },
+    {
+        "date":"2023-02-20T00:00:00",
+        "review":"Perfect for long gaming nights. Love the taste and the cool bottle design.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998824596
+    },
+    {
+        "date":"2023-02-20T00:00:00",
+        "review":"Comfortable, good fit, and the grip is excellent. Happy with my purchase.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998722076
+    },
+    {
+        "date":"2023-02-20T00:00:00",
+        "review":"Good quality and the lights are a nice touch. My kid wears them all the time.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998800755
+    },
+    {
+        "date":"2023-02-18T00:00:00",
+        "review":"The tropical flavor is really good, and the energy kick is powerful.",
+        "Sentiment":"POSITIVE",
+        "Score":0.999884963
+    },
+    {
+        "date":"2023-02-17T00:00:00",
+        "review":"Stunning and comfortable. I wore them to a wedding and got so many compliments.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998867512
+    },
+    {
+        "date":"2023-02-15T00:00:00",
+        "review":"The box is nicely packaged, making it a great gift option.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998840094
+    },
+    {
+        "date":"2023-02-15T00:00:00",
+        "review":"It's quite nice but a little snug on my head. Maybe it's just my head size. But I love the design!",
+        "Sentiment":"POSITIVE",
+        "Score":0.9995028973
+    },
+    {
+        "date":"2023-02-12T00:00:00",
+        "review":"The cherry cola flavor is very appealing. Provides a good energy boost for gaming!",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998854399
+    },
+    {
+        "date":"2023-02-12T00:00:00",
+        "review":"The mint and citrus blend is very refreshing. And the bottle design is great too!",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998848438
+    },
+    {
+        "date":"2023-02-10T00:00:00",
+        "review":"The berry flavor is intense and delicious. Great for keeping me focused during my gaming sessions.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998863935
+    },
+    {
+        "date":"2023-01-24T00:00:00",
+        "review":"These chocolates are so tasty! Love the variety of flavors.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998853207
+    },
+    {
+        "date":"2023-01-23T00:00:00",
+        "review":"Nice sandals, but they run a bit small. I recommend ordering a size up.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9912410378
+    },
+    {
+        "date":"2023-01-15T00:00:00",
+        "review":"The design is just epic! And the energy boost is real.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998830557
+    },
+    {
+        "date":"2023-01-15T00:00:00",
+        "review":"Really like the design and they're great for running. They're also easy to clean.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998383522
+    },
+    {
+        "date":"2023-01-15T00:00:00",
+        "review":"These sneakers are worth every penny! They're durable and my kid loves them!",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998084903
+    },
+    {
+        "date":"2023-01-13T00:00:00",
+        "review":"These are decent boots for hiking, but they took a while to break in.",
+        "Sentiment":"NEGATIVE",
+        "Score":0.9876278639
+    },
+    {
+        "date":"2023-01-10T00:00:00",
+        "review":"Impressive build quality and comfort. However, I wish they were a bit cheaper.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9948638082
+    },
+    {
+        "date":"2023-01-10T00:00:00",
+        "review":"A must-have for cat lovers. It's adorable and keeps me warm during chilly weather.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998546839
+    },
+    {
+        "date":"2022-12-25T00:00:00",
+        "review":"I bought this for my daughter, and she adores it! It's become her favorite winter accessory.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998419285
+    },
+    {
+        "date":"2022-12-18T00:00:00",
+        "review":"Bought the large box, and it's lasted quite a while. Great for when you need a sweet treat.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998445511
+    },
+    {
+        "date":"2022-12-18T00:00:00",
+        "review":"These sandals are a must-have! They look amazing and feel great.",
+        "Sentiment":"POSITIVE",
+        "Score":0.999879241
+    },
+    {
+        "date":"2022-12-07T00:00:00",
+        "review":"Great traction and support. My feet stayed dry even in wet conditions.",
+        "Sentiment":"NEGATIVE",
+        "Score":0.7891528606
+    },
+    {
+        "date":"2022-11-25T00:00:00",
+        "review":"Shoes are okay, but the cushioning could be better.",
+        "Sentiment":"POSITIVE",
+        "Score":0.5497918725
+    },
+    {
+        "date":"2022-11-25T00:00:00",
+        "review":"The shoes are great but the battery life for the lights could be better.",
+        "Sentiment":"NEGATIVE",
+        "Score":0.9795311689
+    },
+    {
+        "date":"2022-11-20T00:00:00",
+        "review":"Beautiful shoes, but not very comfortable. Good for short-term wear.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9769036174
+    },
+    {
+        "date":"2022-11-20T00:00:00",
+        "review":"Was looking for a good pair of white sneakers and these fit the bill. Excellent quality and design.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9990917444
+    },
+    {
+        "date":"2022-11-10T00:00:00",
+        "review":"These boots are perfect for hiking. They're comfortable and provide excellent support.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998550415
+    },
+    {
+        "date":"2022-11-05T00:00:00",
+        "review":"A bit pricey, but the quality of the chocolate is worth it.",
+        "Sentiment":"POSITIVE",
+        "Score":0.999866724
+    },
+    {
+        "date":"2022-10-19T00:00:00",
+        "review":"Great boots! The size was perfect, and they're very comfortable.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998812675
+    },
+    {
+        "date":"2022-10-14T00:00:00",
+        "review":"Great quality for the price. The buckle closure is secure, and the heel feels sturdy.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9992951155
+    },
+    {
+        "date":"2022-10-05T00:00:00",
+        "review":"Good shoes, but they run a little small. I'd recommend ordering a half size up.",
+        "Sentiment":"NEGATIVE",
+        "Score":0.6966995597
+    },
+    {
+        "date":"2022-10-05T00:00:00",
+        "review":"Nice design and the lights are bright. However, they run a bit small. Order a size up.",
+        "Sentiment":"POSITIVE",
+        "Score":0.6058605313
+    },
+    {
+        "date":"2022-10-05T00:00:00",
+        "review":"Great beanie, but I wish there were more colors available. The cat ears design is really nice.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9997256398
+    },
+    {
+        "date":"2022-10-02T00:00:00",
+        "review":"The cherry flavor is amazing. Will be buying more.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998744726
+    },
+    {
+        "date":"2022-09-28T00:00:00",
+        "review":"These boots are durable and comfortable, but they're a bit heavy.",
+        "Sentiment":"NEGATIVE",
+        "Score":0.918792665
+    },
+    {
+        "date":"2022-09-27T00:00:00",
+        "review":"The sandals are pretty, but the heel is higher than I expected.",
+        "Sentiment":"POSITIVE",
+        "Score":0.997923851
+    },
+    {
+        "date":"2022-09-20T00:00:00",
+        "review":"A cozy and unique beanie. Received a lot of compliments. Plus, it's cat-themed, so that's a win for me!",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998774529
+    },
+    {
+        "date":"2022-09-15T00:00:00",
+        "review":"Best running shoes I've had in a while. They're really comfortable, even on long runs.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998080134
+    },
+    {
+        "date":"2022-09-15T00:00:00",
+        "review":"Comfortable and fun! My child loves showing off the light-up feature to friends.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998830557
+    },
+    {
+        "date":"2022-09-12T00:00:00",
+        "review":"They're nice shoes but they felt a little tight at first. They loosened up after a few days though.",
+        "Sentiment":"POSITIVE",
+        "Score":0.8111279011
+    },
+    {
+        "date":"2022-09-10T00:00:00",
+        "review":"Nice variety of flavors. The chocolate is rich and smooth.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998838902
+    },
+    {
+        "date":"2022-08-16T00:00:00",
+        "review":"I bought these as a gift, and they were well received. Will definitely purchase again.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9998778105
+    },
+    {
+        "date":"2022-08-15T00:00:00",
+        "review":"Good quality boots. They keep my feet dry and comfortable during long hikes.",
+        "Sentiment":"POSITIVE",
+        "Score":0.9997811913
+    }
+]
