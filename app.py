@@ -13,7 +13,7 @@ with col_name:
     st.markdown("### Andraž Kadivec | Web Scraping Homework 3")
 with col_logo:
     # EF Ljubljana Logo
-    logo_url = "https://github.com/Kadivec/Homework3/blob/main/logo.png"
+    logo_url = "https://raw.githubusercontent.com/Kadivec/Homework3/refs/heads/main/logo.png"
     st.image(logo_url, width=200)
 
 st.divider()
@@ -113,3 +113,4 @@ elif page == "Reviews":
     else:
 
         st.error("Missing: Reviews.json")
+
