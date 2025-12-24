@@ -61,7 +61,7 @@ elif page == "Reviews":
         df_r['date'] = pd.to_datetime(df_r['date'])
         
         months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-        selected_month = st.select_slider("Select Month in 2023", options=months, value="May")
+        selected_month = st.select_slider("Select Month in 2023", options=months, value="Apr")
         
         month_idx = months.index(selected_month) + 1
         filtered_df = df_r[df_r['date'].dt.month == month_idx].copy()
@@ -125,3 +125,4 @@ elif page == "Reviews":
             st.info(f"No reviews found for {selected_month} 2023.")
     else:
         st.error("Missing: Reviews.json")
+
